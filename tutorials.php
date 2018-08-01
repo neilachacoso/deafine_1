@@ -25,7 +25,7 @@
 	        			<a class="nav-link" href="about.php">About</a>
 	      			</li>
 	      			<li class="nav-item active">
-	        			<a class="nav-link" href="media.php">Tutorials</a>
+	        			<a class="nav-link" href="#">Tutorials</a>
 	      			</li>
 	      			<li class="nav-item">
 	        			<a class="nav-link" href="portfolio.php">Portfolio</a>
@@ -49,8 +49,11 @@
 	  	</div>
 	</nav>
 
-
-
+	<div class="jumbotron jumbotron-fluid">
+  		<div class="container text-center">
+    		<h1 class="display-4">Sign Tutorials</h1>
+  		</div>	
+	</div>
 
 
 	<!---scripts--->

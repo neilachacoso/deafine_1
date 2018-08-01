@@ -52,7 +52,7 @@
 
 	<div class="jumbotron jumbotron-fluid">
   		<div class="container text-center">
-    		<h1 class="display-4">How It Works</h1>
+    		<h1 class="display-4">HOW IT WORKS</h1>
   		</div>	
 	</div>
 

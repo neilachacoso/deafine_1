@@ -22,19 +22,19 @@
 	        			<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
 	      			</li>
 	      			<li class="nav-item">
-	        			<a class="nav-link" href="#">About</a>
+	        			<a class="nav-link" href="about.php">About</a>
 	      			</li>
 	      			<li class="nav-item">
-	        			<a class="nav-link" href="#">Tutorials</a>
+	        			<a class="nav-link" href="tutorials.php">Tutorials</a>
 	      			</li>
 	      			<li class="nav-item">
-	        			<a class="nav-link" href="#">Portfolio</a>
+	        			<a class="nav-link" href="portfolio.php">Portfolio</a>
 	      			</li>
 	      			<li class="nav-item">
-	        			<a class="nav-link" href="#">Jobs</a>
+	        			<a class="nav-link" href="jobs.php">Jobs</a>
 	      			</li>
 	      			<li class="nav-item">
-	        			<a class="nav-link" href="#">Contact</a>
+	        			<a class="nav-link" href="contact.php">Contact</a>
 	      			</li>
 	      			<li class="nav-item dropdown">
         				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
