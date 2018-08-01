@@ -41,7 +41,7 @@
           					Login
         				</a>
         				<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-				        	<a class="dropdown-item" href="#">Sign Up</a>
+				        	<a class="dropdown-item" href="#signup.php">Sign Up</a>
         				</div>
       				</li>
 	    		</ul>
