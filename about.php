@@ -25,7 +25,7 @@
 	        			<a class="nav-link" href="#">About</a>
 	      			</li>
 	      			<li class="nav-item">
-	        			<a class="nav-link" href="media.php">Tutorials</a>
+	        			<a class="nav-link" href="tutorials.php">Tutorials</a>
 	      			</li>
 	      			<li class="nav-item">
 	        			<a class="nav-link" href="portfolio.php">Portfolio</a>
