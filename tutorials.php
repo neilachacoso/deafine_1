@@ -101,7 +101,7 @@
 				<br>
 				<div class="row text-center">
 					<div class="col-md-3">
-						<img src="images/2.png">
+						<img src="images/2.png" data-toggle="modal" data-target="#exampleModal">
 						Episode 2 - Alphabet and numbers
 					</div>
 					<div class="col-md-3">
@@ -121,6 +121,40 @@
 		</div>
 	</div>
 
+	<div class="modal fade bd-example-modal-lg" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  		<div class="modal-dialog modal-lg" role="document">
+    		<div class="modal-content">
+      			<div class="modal-body">
+        			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          				<span aria-hidden="true">&times;</span>
+        			</button>
+					<div class="embed-responsive embed-responsive-16by9">
+			  			<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+					</div>	
+      			</div>
+    		</div>
+  		</div>
+	</div>
+
+	<style type="text/css">
+		.modal-backdrop {
+	     	background-color: rgba(0,0,0,1) !important;
+	     	-webkit-filter: blur(100px) !important;
+		    -moz-filter: blur(100px) !important;
+		    -o-filter: blur(100px) !important;
+		    -ms-filter: blur(100px) !important;
+		    filter: blur(100px) !important;
+		}
+		.modal-content {
+	     	background-color: rgba(0,0,0,0) !important;
+	     	border: none;
+		}
+
+		.modal-body span {
+			font-size: 40px; 
+			color: rgb(255,255,255) !important;
+		}
+	</style>
 
 	<!---scripts--->
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
