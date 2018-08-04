@@ -49,6 +49,34 @@
 	  	</div>
 	</nav>
 
+	<div class="jumbotron">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-xs-12">
+					<h1>Welcome to DEAFine!</h1>
+					<p>a job-matching website that features deaf artists and sign tutorials.</p>
+					<div class="card">
+						<div class="card-body">
+							<h2>Let's get started!</h2>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-xs-12">
+					<div class="embed-responsive embed-responsive-16by9">
+			  			<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+					</div>	
+					<h3>
+						DEAFYING LIMITS
+					</h3>
+					<p>
+						Watch how others DEAFy limits, deaf artists who never gave up and employers who saw their skills and gave them an opportunity. See how a deafs skill is a strength and that their disability is not a hindrance.
+					</p>
+					<a class="btn btn-primary" href="#" role="button">Watch more videos</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
 
 
 
@@ -56,6 +84,6 @@
 	<!---scripts--->
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-	<script src="bootstrap/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="bootstrap\dist\js\bootstrap.min.js"></script>
 </body>
 </html>
