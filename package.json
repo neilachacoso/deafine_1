@@ -78,7 +78,9 @@
       "name": "Twitter, Inc."
     }
   ],
-  "dependencies": {},
+  "dependencies": {
+    "@fancyapps/fancybox": "^3.3.5"
+  },
   "deprecated": false,
   "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
   "devDependencies": {

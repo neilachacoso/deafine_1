@@ -1,10 +1,24 @@
+<?php 
+	include('dbconfig.php');
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" type="text/css" href="bootstrap/dist/css/bootstrap.css" />
+	<link rel="stylesheet" type="text/css" href="plugins/fancybox/dist/jquery.fancybox.css">
 	<title>ddd</title>
+	<style type="text/css">
+		.gallery img {
+		    width: 20%;
+		    height: auto;
+		    border-radius: 5px;
+		    cursor: pointer;
+		    transition: .3s;
+		}
+	</style>
 </head>
 <body>
 	<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
@@ -55,11 +69,33 @@
   		</div>	
 	</div>
 
+	<div class="container">
+	    <div class="gallery text-center">
+	        <?php	        
+	        //get images from database
+	        $query = $db->query("SELECT * FROM images ORDER BY uploaded_on DESC");
+	        
+	        if($query->num_rows > 0){
+	            while($row = $query->fetch_assoc()){
+	                $imageThumbURL = 'uploads/'.$row["file_name"];
+	                $imageURL = 'uploads/'.$row["file_name"];
+	        ?>
+	            <a href="<?php echo $imageURL; ?>" data-fancybox="group" data-caption="<?php echo $row["title"]; ?>" >
+	                <img src="<?php echo $imageThumbURL; ?>" alt="" />
+	            </a>
+	        <?php }
+	        } ?>
+	    </div>
+	</div>
 
 
 	<!---scripts--->
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-	<script src="bootstrap/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="plugins/fancybox/dist/fancybox/jquery.fancybox.js"></script>
+	<script type="text/javascript">
+		$("[data-fancybox]").fancybox({ });
+	</script>
 </body>
 </html>
