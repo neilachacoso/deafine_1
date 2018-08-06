@@ -1,6 +1,6 @@
-<?php 
-	include('dbconfig.php');
-?>
+<!-- <?php 
+	//include('dbconfig.php');
+?> -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -70,7 +70,7 @@
 	</div>
 
 	<div class="container">
-	    <div class="gallery text-center">
+	    <!-- <div class="gallery text-center">
 	        <?php	        
 	        //get images from database
 	        $query = $db->query("SELECT * FROM images ORDER BY uploaded_on DESC");
@@ -85,7 +85,7 @@
 	            </a>
 	        <?php }
 	        } ?>
-	    </div>
+	    </div> -->
 	</div>
 
 

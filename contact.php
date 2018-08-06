@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" type="text/css" href="bootstrap/dist/css/bootstrap.css" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 	<title>ddd</title>
 </head>
 <body>
@@ -55,7 +56,40 @@
   		</div>	
 	</div>
 
-
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<h4>GET IN TOUCH</h4>
+				<br>
+				<p>We're very approachable and would love to speak with you. Feel free to call, send us an email, Tweet us or simply complete the inquiry form.</p>
+				<i class="fa fa-phone"></i> 4564498798
+				<br>
+				<i class="fas fa-at"></i> dfgdgf@gmail.com
+				<br>
+				<i class="fab fa-twitter"></i> @deafine
+				<br>
+				<i class="fab fa-facebook"></i> facebook.com/deafine
+			</div>
+			<div class="col-md-6">
+				<h4>SEND US A MESSAGE</h4>
+				<br>
+				<form>
+					<div class="form-group">
+    					<input type="text" class="form-control" id="inputName" placeholder="YOUR NAME">
+  					</div>
+  					<div class="form-group">
+  						<input type="email" class="form-control" id="inputEmail1" aria-describedby="emailHelp" placeholder="YOUR EMAIL">
+  					</div>
+					<div class="form-group">
+    					<input type="text" class="form-control" id="inputNumber" placeholder="YOUR PHONE NUMBER">
+  					</div>
+  					<div class="form-group">
+					    <textarea class="form-control" id="inputMessage" rows="4" placeholder="YOUR MESSAGE"></textarea>
+  					</div>
+				</form>
+			</div>
+		</div>
+	</div>
 
 	<!---scripts--->
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
