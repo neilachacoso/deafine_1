@@ -7,7 +7,7 @@
 	<title>ddd</title>
 </head>
 <body>
-	<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+	<nav class="navbar navbar-expand-lg navbar-light">
 		<div class="container">
 	  		<a class="navbar-brand" href="#">
 	  			<img src="images/logo.png" id="logo" width="150" alt="">
@@ -18,14 +18,14 @@
 
 	  		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 	    		<ul class="navbar-nav ml-auto">
-	      			<li class="nav-item">
-	        			<a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
+	      			<li class="nav-item active">
+	        			<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
 	      			</li>
 	      			<li class="nav-item">
 	        			<a class="nav-link" href="about.php">About</a>
 	      			</li>
-	      			<li class="nav-item active">
-	        			<a class="nav-link" href="#">Tutorials</a>
+	      			<li class="nav-item">
+	        			<a class="nav-link" href="tutorials.php">Tutorials</a>
 	      			</li>
 	      			<li class="nav-item">
 	        			<a class="nav-link" href="portfolio.php">Portfolio</a>
@@ -36,13 +36,19 @@
 	      			<li class="nav-item">
 	        			<a class="nav-link" href="contact.php">Contact</a>
 	      			</li>
-	      			<li class="nav-item dropdown">
+	      			<!-- <li class="nav-item dropdown">
         				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           					Login
         				</a>
         				<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 				        	<a class="dropdown-item" href="signup.php">Sign Up</a>
         				</div>
+      				</li> -->
+      				<li class="nav-item">
+      					<a class="nav-link" href="login.php">Login</a>
+      				</li>
+      				<li class="nav-item">
+      					<a class="btn btn-primary btn-block" href="signup.php">Signup</a>
       				</li>
 	    		</ul>
 	  		</div>
