@@ -1,7 +1,7 @@
 <?php 
 	if (isset($_POST['user']) && isset($_POST['pwd'])) {
 		if ($_POST['user'] == 'a@a.com' && $_POST['pwd'] == '123') {
-			header("Location: home");
+			header("Location: applicant");
 			exit();
 		}
 	}
