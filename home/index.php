@@ -1,24 +1,16 @@
-<?php 
-	if (isset($_POST['user']) && isset($_POST['pwd'])) {
-		if ($_POST['user'] == 'a@a.com' && $_POST['pwd'] == '123') {
-			header("Location: home");
-			exit();
-		}
-	}
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="stylesheet" type="text/css" href="bootstrap/dist/css/bootstrap.css" />
+	<link rel="stylesheet" type="text/css" href="../bootstrap/dist/css/bootstrap.css" />
 	<title>ddd</title>
 </head>
 <body>
 	<nav class="navbar navbar-expand-lg navbar-light">
 		<div class="container">
 	  		<a class="navbar-brand" href="#">
-	  			<img src="images/logo.png" id="logo" width="150" alt="">
+	  			<img src="../images/logo.png" id="logo" width="150" alt="">
 	  		</a>
 	  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 	    		<span class="navbar-toggler-icon"></span>
@@ -62,29 +54,6 @@
 	  		</div>
 	  	</div>
 	</nav>
-
-
-
-	<div class="container text-center">
-        <h1>Log in with your email account</h1>
-        <p>Don't have an account yet? <a href="signup.php">Sign up here.</a>
-	    </p>
-	    <form name="test" action="<?php echo htmlentities($_SERVER['PHP_SELF']); ?>" method="post">
-	  		<div class="form-group">
-	    		<input type="email" name="user" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-	    		<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-	  		</div>
-	  		<div class="form-group">
-	    		<input type="password" name="pwd" class="form-control" id="exampleInputPassword1" placeholder="Password">
-	  		</div>
-	  		<div class="form-check">
-	    		<input type="checkbox" class="form-check-input" id="exampleCheck1">
-	    		<label class="form-check-label" for="exampleCheck1">Check me out</label>
-	  		</div>
-	  		<a href="forgotpass.php">Forgot Password?</a>
-	  		<input type="submit" class="btn btn-primary btn-block">
-		</form>
-	</div>
 
 	<!---scripts--->
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
